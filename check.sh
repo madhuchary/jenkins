@@ -1,5 +1,5 @@
 #!/bin/bash
-instance_type=t1.micro
+instance_type=t2.micro
 
 if [ $instance_type != "t2.micro" ]
 then
@@ -11,4 +11,3 @@ else
 	echo "instance launched "
 
 fi
-
